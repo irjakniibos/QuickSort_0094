@@ -14,6 +14,9 @@ void input(){
         cin >> n ;
 
         if(n <= 20 )
-        break;
+            break;
+        else
+            cout << "Maksimal panjang Array adalah 20" << endl ;
+
     }
 }
