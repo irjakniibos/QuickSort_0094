@@ -11,5 +11,6 @@ void input(){
     while(true)
     {
         cout << "Masukan Panjang Element Array";
+        cin >> n ;
     }
 }
