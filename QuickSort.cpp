@@ -12,5 +12,7 @@ void input(){
     {
         cout << "Masukan Panjang Element Array";
         cin >> n ;
+
+        if(n <= 20 )
     }
 }
