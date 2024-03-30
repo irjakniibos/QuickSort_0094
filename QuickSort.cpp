@@ -10,17 +10,17 @@ int n;
 void input(){
     while(true)
     {
-        cout << "Masukan Panjang Element Array";
+        cout << "Masukan Panjang Element Array ";
         cin >> n ;
 
         if(n <= 20 )
             break;
         else
-            cout << "\nMaksimal panjang Array adalah 20" << endl ;
+            cout << "\nMaksimal panjang Array adalah 20 " << endl ;
     }
 
     cout << "\n------------------" << endl;
-    cout << "\nEnter Array Element" << endl;
+    cout << "\nEnter Array Element " << endl;
     cout << "\n------------------" << endl;
 
     for (int i = 0 ;i < n; i++) 
@@ -93,7 +93,7 @@ void display(){
         cout << arr[i] << " ";
     }
 
-    cout << "\n Number of comparasion : " << cmp_count << endl;
+    cout << "\nNumber of comparasion : " << cmp_count << endl;
     cout << "Number of data movements : " << mov_count << endl;
 
 }
